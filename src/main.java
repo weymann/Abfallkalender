@@ -11,9 +11,9 @@ public class main {
 	static String inputFile = "abfallkalender.ics";
 	static String outputFile = "AbfallkalenderMitErinnerung-out.ics";
 
-	static String ALARMS = "BEGIN:VALARM\r\n" + "ACTION:DISPLAY\r\n" + "DESCRIPTION:This is an event reminder\r\n"
-			+ "TRIGGER:-P0DT8H0M0S\r\n" + "END:VALARM\r\n" + "BEGIN:VALARM\r\n" + "ACTION:DISPLAY\r\n"
-			+ "DESCRIPTION:This is an event reminder\r\n" + "TRIGGER:-P0DT9H00M0S\r\n" + "END:VALARM\r\n" + "";
+	static String ALARMS = "BEGIN:VALARM\r\n" + "ACTION:DISPLAY\r\n" + "DESCRIPTION:Abholtermin morgen\r\n"
+			+ "TRIGGER:-P0DT10H0M0S\r\n" + "END:VALARM\r\n" + "BEGIN:VALARM\r\n" + "ACTION:DISPLAY\r\n"
+			+ "DESCRIPTION:Abholtermin morgen\r\n" + "TRIGGER:-P0DT9H00M0S\r\n" + "END:VALARM\r\n" + "";
 
 	public static void main(String[] args) {
 
