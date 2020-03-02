@@ -7,13 +7,13 @@ import java.io.Writer;
 public class main {
 	static BufferedReader reader;
 	static Writer fileWriter;
-	static String dir = "c:/Users/bernd/Downloads/";
+	static String dir = "resources/";
 	static String inputFile = "abfallkalender.ics";
 	static String outputFile = "AbfallkalenderMitErinnerung-out.ics";
 
 	static String ALARMS = "BEGIN:VALARM\r\n" + "ACTION:DISPLAY\r\n" + "DESCRIPTION:This is an event reminder\r\n"
-			+ "TRIGGER:-P0DT6H0M0S\r\n" + "END:VALARM\r\n" + "BEGIN:VALARM\r\n" + "ACTION:DISPLAY\r\n"
-			+ "DESCRIPTION:This is an event reminder\r\n" + "TRIGGER:-P0DT6H30M0S\r\n" + "END:VALARM\r\n" + "";
+			+ "TRIGGER:-P0DT8H0M0S\r\n" + "END:VALARM\r\n" + "BEGIN:VALARM\r\n" + "ACTION:DISPLAY\r\n"
+			+ "DESCRIPTION:This is an event reminder\r\n" + "TRIGGER:-P0DT9H00M0S\r\n" + "END:VALARM\r\n" + "";
 
 	public static void main(String[] args) {
 
