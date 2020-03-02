@@ -35,8 +35,10 @@ public class main {
 	}
 
 	private static void checkLine(String line) {
-		if (line.startsWith("DTSTART:") || line.startsWith("DTEND:")) {
-			line += "T000000";
+		if (line.startsWith("DTSTART:")) {
+			line += "T050000";
+		} else if (line.startsWith("DTEND:")) {
+			line += "T060000";
 		} else if (line.startsWith("END:VEVENT")) {
 			line = ALARMS + line;
 		}
